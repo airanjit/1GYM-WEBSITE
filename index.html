@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>True view Fitness</title>
+</head>
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body {
+        font-family: 'Baloo Bhai', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background-image: url(bg.jpg);
+        background-size: 1920px 850px;
+        background-repeat: no-repeat;
+    }
+
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 60px;
+        top: 5px;
+    }
+
+    .left img {
+        width: 115px;
+
+    }
+
+    .left div {
+        line-height: 10px;
+        font-size: 26px;
+        s text-align: center;
+    }
+
+    .mid {
+        display: block;
+        width: 50%;
+        margin: 29px auto;
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 30px;
+        display: inline-block;
+
+    }
+
+    .right a {
+        text-decoration: none;
+        color: white;
+        font-family: 'Baloo Bhai', cursive;
+        font-size: 25px;
+    }
+
+    .right :hover {
+        text-decoration: underline;
+        color: gray;
+
+    }
+
+    .navbar {}
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+
+    }
+
+    .btn {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(31, 30, 30);
+
+    }
+
+
+
+
+    .container {
+
+        margin: 55px 25px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 28px;
+    }
+
+    .form-group input {
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+    }
+
+    .cls {
+        text-align: center;
+        margin-top: 55px;
+    }
+
+    .cls h1 {
+        color: black;
+        background-color: darkgrey;
+    }
+
+    .air {
+        float: left;
+        display: block;
+        color: black;
+        margin-left: 10px;
+    }
+
+    .air img {
+        width: 300px 400px;
+    }
+
+    .car {
+        margin-left: 80px;
+        display: inline-block
+    }
+
+    .car h2 {
+        color: black;
+    }
+
+    .lift h2 {
+        color: black;
+    }
+
+    .lift {
+        float: left;
+        margin-left: 10px;
+    }
+
+    .press {
+        margin-left: 80px;
+        display: inline-block
+    }
+
+    .press h2 {
+        color: black;
+    }
+    .las{color: black;}
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="logo.png" alt="">
+
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#"> Time Table</a></li>
+                <li><a
+                        href="https://scitron.com/?utm_source=google&utm_medium=organic&utm_campaign=gmb&gclid=Cj0KCQiA4OybBhCzARIsAIcfn9mlOpv-ApVFLsmowfUAVePJvegATJnaoTUkz5geVLlR1BBQDEEH5JUaAvLREALw_wcB">Nutritions</a>
+                </li>
+                <li><a href="#">Gallary</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <a href="contact.html">Contact us </a>
+        </div>
+        <hr>
+    </header>
+    <div class="container">
+        <h1>Register Now!</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email Id">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Phone Number">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+    <div class="cls">
+        <h1>Our Popular Class</h1>
+        <div class="air">
+            <h2>Airyoga </h2>
+            <img src="airyoga.avif" alt="">
+        </div>
+
+        <div class="car">
+            <h2>Cardio</h2>
+            <img src="cardio.avif" alt="">
+        </div>
+        <div class="lift">
+            <h2>Lifting</h2>
+            <img src="lifting.avif" alt="">
+        </div>
+        <div class="press">
+            <h2>Press and Back</h2><img src="press.avif" alt="">
+        </div>
+    </div>
+
+    
+    </body>
+
+</div>
+</html>
